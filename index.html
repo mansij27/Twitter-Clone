@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+
+    <link href="css/twitter.css" rel="stylesheet" />
+    <link href="css/navbar.css" rel="stylesheet" />
+    <link href="css/follower-box.css" rel="stylesheet" />
+    <link href="css/tweet-box.css" rel="stylesheet" />
+    <link href="css/timeline.css" rel="stylesheet" />
+    <link href="css/sidebar.css" rel="stylesheet" />
+    <script src="twitter.js" type="text/javascript"></script>
+
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Navbar start-->
+        <div class="navbar" id="main-navbar">
+            <div class="navbar-inner" id="navbar-inner">
+
+                <div class="navbar-col1">
+                    <div class="navbar-button" id="navbar-home">
+                        <span class="icon"> <i class="fa-solid fa-house"></i></span>
+                        <span class="icon-text" id="nav-home">Home</span>
+                    </div>
+                    <div class="navbar-button" id="navbar-notifications">
+                        <span class="icon" id="nav-bell"><i class="fa-solid fa-bell"></i></span>
+                        <span class="icon-text" id="nav-notifications">Notifications</span>
+                    </div>
+                    <div class="navbar-button">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <span class="icon-text" id="nav-messages">Messages</span>
+                    </div>
+                </div>
+
+                <div class="navbar-col2">
+                    <div class="logo"></div>
+                </div>
+
+                <div class="navbar-col3">
+
+                    <div class="profile-navbar-col1">
+                        <input class="search-bar" type="search" placeholder="Search">
+                    </div>
+
+                    <div class="profile-navbar-col2">
+                        <div class="nav-search-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+
+                    <div class="profile-navbar-col3">
+                        <div class="nav-user-icon ">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+
+                    <div class="profile-navbar-col4">
+                        <div class="tweet-button">Tweet</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navbar-line-wrapper">
+                <div class="navbar-line-inner">
+                    <div class="navbar-line-col1">
+                        <div class="navbar-line-button" id="line-home-button">Home</div>
+                        <div class="navbar-line-button" id="line-home-notification">Notifications</div>
+                        <div class="navbar-line-button">Messages</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Navbar end -->
+
+        <!-- Main Body starts -->
+        <div class="main-body" id="main-body">
+
+            <div class="col1">
+
+                <!-- Follower box -->
+                <div class="followers-box">
+                    <div class="followers-box-user-info-wrapper">
+
+                        <div class="followers-box-user-icon-wrapper">
+                            <div class="followers-box-user-icon">
+                                <img src="Airplanegirl.jpg" />
+                            </div>
+                            <div class="followers-box-user-name">
+                                <p class="user-text-name">Mansi Jain</p>
+                                <p class="user-name">@mj_mansi27</p>
+                            </div>
+                        </div>
+
+                        <div class="followers-box-toolbar">
+                            <div class="followers-box-toolbar-col1">
+                                <div class="followers-box-toolbar-details">Tweets
+                                    <div class="followers-box-toolbar-details-count">6</div>
+                                </div>
+                            </div>
+                            <div class="followers-box-toolbar-col2">
+                                <div class="followers-box-toolbar-details">Following
+                                    <div class="followers-box-toolbar-details-count">20</div>
+                                </div>
+                            </div>
+                            <div class="followers-box-toolbar-col3">
+                                <div class="followers-box-toolbar-details">Followers
+                                    <div class="followers-box-toolbar-details-count">21</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="followers-box-banner">
+                        <img src="/IMG_20190707_113427.jpg" />
+                    </div>
+
+                </div>
+                <!-- Follower box end-->
+
+                <!-- Side bar -->
+                <div class="sidebar-wrapper">
+
+                    <div row="row-home">
+                        <div class="sidebar-icon-home">
+                            <div class="home-icon">
+                                <i class="fa-solid fa-home"></i>
+                                <p>Home</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div row="row-explore">
+                        <div class="sidebar-icon-explore">
+                            <div class="explore-icon">
+                                <i class="fa-solid fa-hashtag"></i>
+                                <p>Explore</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div row="row-notifications">
+                        <div class="sidebar-icon-notifications">
+                            <div class="notifications-icon">
+                                <i class="fa-solid fa-bell"></i>
+                                <p>Notifications</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div row="row-messages">
+                        <div class="sidebar-icon-messages">
+                            <div class="messages-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>Messages</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div row="row-bookmarks">
+                        <div class="sidebar-icon-bookmarks">
+                            <div class="bookmarks-icon">
+                                <i class="fa-solid fa-bookmark"></i>
+                                <p>Bookmarks</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div row="row-lists">
+                        <div class="sidebar-icon-lists">
+                            <div class="lists-icon">
+                                <i class="fa-solid fa-list"></i>
+                                <p>Lists</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div row="row-profile">
+                        <div class="sidebar-icon-profile">
+                            <div class="profile-icon">
+                                <i class="fa-solid fa-user"></i>
+                                <p>Profile</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div row="row-more">
+                        <div class="sidebar-icon-more">
+                            <div class="more-icon">
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <p>More</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Side bar ends-->
+
+            </div>
+
+            <div class="col2">
+
+                <!-- Tweet Box -->
+                <div class="tweet-box">
+                    <div class="tweetbox-toolbar-area">
+
+                        <div class="tweetbox-input-area">
+                            <div class="tweetbox-input-area-inner">
+                                <input class="tweetbox-text" placeholder="What's happening?">
+                                <span class="tweetbox-input-area-inner-icon"> <i class="fa-solid fa-face-smile"></i>
+                                </div>
+                        </div>
+
+                        <div class="tweet-box-icon-wrapper">
+                            <img src="Airplanegirl.jpg" />
+                        </div>
+
+                        <div class="tweetbox-buttons-wrapper">
+
+                           <div col="1">
+                                <div class="tweetbox-image-icon">
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+
+                            <div col="2">
+                                <div class="tweetbox-gif-icon">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+
+                            <div col="3">
+                                <div class="tweetbox-chart-icon">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                </div>
+                            </div>
+
+                            <div col="4">
+                                <div class="tweetbox-location-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                            </div>
+
+                            <div col="5">
+                                <div class="tweetbox-plus-icon-outer">
+                                    <div class="tweetbox-plus-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div col="6">
+                                <div class="tweetbox-tweet-button"> Tweet</div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- Tweet Box End -->
+
+                <!-- See new tweets -->
+                <div class="see-new-tweets">
+                    <p> See new Tweets</p>
+                </div>
+                <!-- See new tweets end-->
+
+                <!-- TimeLine Box -->
+                <div class="timeline">
+                    <div class="timeline-inner">
+
+                        <div class="timeline-icon">
+                            <img src="Airplanegirl.jpg" />
+                        </div>
+
+                        <div class="timeline-username-wrapper">
+                            <p class="timeline-username-text">Mansi Jain</p>
+                            <p class="timeline-username-handle">@mj_mansi27</p>
+                        </div>
+
+                        <div class="timeline-tweet-text">
+                            <p class="tweet-text"> Hello welcome to twitter</p>
+                        </div>
+
+                        <div class="tweet-image-wrapper">
+                            <div class="tweet-attachment">
+                                <img src="#"/>
+                            </div>
+                        </div>
+
+                        <div class="timeline-buttons-wrapper">
+
+                            <div col="1">
+                                <div class="timeline-commment-icon">
+                                    <i class="fa-solid fa-comment"></i><span class="timeline-span"> 4 </span>
+                            </div>
+                        </div>
+
+                        <div col="2">
+                            <div class="timeline-retweet-icon">
+                                <i class="fa-solid fa-retweet"></i><span class="timeline-span"> 4 </span>
+                            </div>
+                        </div>
+
+                        <div col="3">
+                            <div class="timeline-heart-icon">
+                                <i class="fa-solid fa-heart"></i><span class="timeline-span"> 4 </span>
+                            </div>
+                        </div>
+
+                        <div col="4">
+                            <div class="timeline-dm-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- TimeLine Box end-->
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Discover box -->
+        <div class="col3">
+            <div class="discover-box">
+
+                <div class="discover-heading">You might like</div>
+
+                <div class="discover-item">
+                    <div class="discover-icon-wrapper">
+                        <img src="Airplanegirl.jpg" />
+                    </div>
+                    <p class="discover-username">Ratan Tata</p>
+                    <p class="discover-username" id="discover-handle">@RTNtata2000</p>
+                    <div class="discover-follow-button"> Follow</div>
+                </div>
+
+                <div class="discover-item" id="discover-item2">
+                    <div class="discover-icon-wrapper">
+                        <img src="Airplanegirl.jpg" />
+                    </div>
+                    <p class="discover-username">Ratan Tata</p>
+                    <p class="discover-username" id="discover-handle">@RTNtata2000</p>
+                    <div class="discover-follow-button"> Follow</div>
+                </div>
+
+                <div class="discover-item" id="discover-item3">
+                    <div class="discover-icon-wrapper">
+                        <img src="Airplanegirl.jpg" />
+                    </div>
+                    <p class="discover-username">Ratan Tata</p>
+                    <p class="discover-username" id="discover-handle">@RTNtata2000</p>
+                    <div class="discover-follow-button"> Follow</div>
+                </div>
+
+                <div class="discover-see-more">
+                    <p> See more</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Discover box ends -->
+
+        <!-- Main Body end-->
+    </div>
+</body>
+
+</html>

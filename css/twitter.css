@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-body {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    margin: 10px auto 10px auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.col1 {
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.col2 {
+    width: 46%;
+    height: 600px;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.col3 {
+    width: 27%;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.discover-box {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid rgba(238, 232, 232, 0.515);
+}
+
+.discover-heading {
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 30px;
+    margin: 5px 0px 0 20px;
+}
+
+.discover-item {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 60px;
+    width: 350px;
+    margin: 40px 0 0 20px;
+}
+
+.discover-icon-wrapper {
+    height: 45px;
+    width: 45px;
+    float: left;
+    border-radius: 50px;
+    margin: 8px 10px 5px 15px;
+    position: absolute;
+}
+
+.discover-icon-wrapper img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+p.discover-username {
+    float: left;
+    position: absolute;
+    line-height: 20px;
+    width: 90px;
+    font-size: 1.0em;
+    margin: 10px 0 0 70px;
+}
+
+#discover-handle {
+    color: gray;
+    font-size: 0.9em;
+    margin: 30px 0 0 70px;
+}
+
+.discover-follow-button {
+    border-radius: 25px;
+    position: absolute;
+    margin: 15px 0px 0 220px;
+    padding: 6px;
+    background-color: rgb(12, 173, 218);
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 18px;
+    width: 65px;
+    cursor: pointer;
+}
+
+#discover-item2 {
+    margin-top: 5px;
+}
+
+#discover-item3 {
+    margin-top: 5px;
+}
+
+.discover-see-more {
+    position: relative;
+    height: 30px;
+    width: 270px;
+    border-radius: 10px;
+    margin: 10px 0 0 35px;
+    background-color: rgba(170, 175, 180, 0.178);
+}
+
+.discover-see-more p {
+    color: rgba(63, 123, 234, 0.756);
+    text-align: center;
+    line-height: 30px;
+    font-weight: 550;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 10px;
+}

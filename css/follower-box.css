@@ -1,0 +1,126 @@
+.followers-box {
+    position: relative;
+    height: 270px;
+    width: auto;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.followers-box-banner {
+    position: absolute;
+    height: 30%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    background-color: blueviolet;
+}
+
+.followers-box-banner img {
+    width: 385px;
+    height: 240px;
+}
+
+.followers-box-user-info-wrapper {
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000!important;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+}
+
+.followers-box-toolbar {
+    height: 55%;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    padding: 0px;
+}
+
+.followers-box-user-icon-wrapper {
+    height: 45%;
+    width: auto;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.followers-box-user-icon {
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 50px;
+    margin: -15px 0 0px 15px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.followers-box-user-icon img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.followers-box-user-name {
+    float: left;
+    margin: 8px 0px 0 85px;
+    padding: 0px;
+}
+
+.followers-box-user-name p {
+    margin: 3px 0 0px 20px;
+    padding: 0px;
+}
+
+.followers-box-user-name p.user-text-name {
+    font-size: 1.0em;
+    font-weight: 800;
+}
+
+.followers-box-user-name p.user-name {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: rgb(93, 93, 95);
+    margin: 5px 0 0 20px;
+}
+
+.followers-box-toolbar-col1 {
+    width: 33.3%;
+    float: left;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.followers-box-toolbar-col2 {
+    width: 33.3%;
+    float: left;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.followers-box-toolbar-col3 {
+    width: 33.4%;
+    float: left;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.followers-box-toolbar-details {
+    color: rgb(31, 117, 246);
+    margin: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.followers-box-toolbar-details-count {
+    margin: 10px;
+    color: rgb(36, 33, 33);
+    font-size: 20px;
+    font-weight: 800;
+}

@@ -1,0 +1,227 @@
+.navbar {
+    width: 100%;
+    height: 62px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-line-wrapper {
+    height: 20px;
+    background-color: rgb(202, 179, 245);
+    width: 100%;
+}
+
+.navbar-line-inner {
+    width: 1200px;
+    height: 2px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+.navbar-line-col1 {
+    width: 26%;
+    float: left;
+    height: 100%;
+}
+
+.navbar-line-button {
+    width: 33.3%;
+    float: left;
+    height: 100%;
+    background-color: none;
+}
+
+#line-home-button {
+    width: 28%;
+    ;
+}
+
+#line-home-notification {
+    width: 38%;
+}
+
+.navbar-line-button:hover {
+    background-color: rgb(55, 159, 207);
+}
+
+.navbar-inner {
+    width: 1200px;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-col1 {
+    width: 26%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    /* background-color: rgb(95, 253, 147); */
+}
+
+.navbar-col2 {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-col3 {
+    width: 34%;
+    height: 100%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-button {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+    margin-right: 0%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.0em;
+    overflow: hidden;
+}
+
+#navbar-home {
+    width: 28%;
+}
+
+#navbar-notifications {
+    width: 38%;
+}
+
+.navbar-button:hover {
+    background-color: rgb(34, 33, 33, 0.2);
+    cursor: pointer;
+}
+
+.profile-navbar-col1 {
+    height: 100%;
+    width: 44%;
+    margin-right: 0%;
+    float: left;
+    background-color: white;
+}
+
+.profile-navbar-col2 {
+    height: 100%;
+    width: 10%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-navbar-col3 {
+    height: 100%;
+    width: 15%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-navbar-col4 {
+    height: 100%;
+    width: 29%;
+    margin-right: 2%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    margin: 0px auto 0px auto;
+    background-image: url("/twitter.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 60px;
+    height: 60px;
+}
+
+.icon {
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+    height: 20px;
+    width: 20px;
+    color: rgb(42, 134, 239);
+}
+
+.icon-text {
+    color: rgb(42, 134, 239);
+    font-size: 0.7rem;
+    float: left;
+    margin-left: 7px;
+    margin-top: 12px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+#nav-notifications {
+    font-size: 0.8rem;
+    margin: 17px 0 0 5px;
+}
+
+#nav-home {
+    font-size: 0.8rem;
+    margin: 17px 0 0 5px;
+}
+
+#nav-bell {
+    margin: 20px 0 0 5px;
+}
+
+#nav-messages {
+    font-size: 0.8rem;
+    margin: 17px 0 0 5px;
+}
+
+.search-bar {
+    margin: 15px;
+    line-height: 30px;
+    float: left;
+}
+
+.nav-search-icon {
+    line-height: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 30px;
+    color: rgb(128, 139, 149);
+    margin: 15px 5px 15px 5px;
+    padding: 2px;
+}
+
+.nav-user-icon {
+    border-radius: 100px;
+    line-height: 20px;
+    background-color: rgb(164, 152, 152);
+    margin: 15px 15px 15px 15px;
+    padding: 5px;
+    width: 25px;
+    float: left;
+}
+
+.tweet-button {
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(12, 173, 218);
+    color: white;
+    font-size: 1.0em;
+    text-align: center;
+    line-height: 30px;
+    width: 85px;
+    cursor: pointer;
+}
+
+.tweet-button:hover {
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-inline-color: rgb(1, 57, 106);
+    border-bottom: blue;
+    border-top: blue;
+    box-shadow: 1px 1px 5px rgb(127, 176, 255);
+}

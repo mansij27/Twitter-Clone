@@ -1,0 +1,124 @@
+.see-new-tweets {
+    position: relative;
+    height: 30px;
+    width: 700px;
+    border-radius: 10px;
+    border: 2px solid rgba(238, 232, 232, 0.515);
+}
+
+.see-new-tweets p {
+    color: rgba(63, 123, 234, 0.756);
+    text-align: center;
+    line-height: 30px;
+    font-weight: 550;
+    cursor: pointer;
+    position: absolute;
+    margin: 0 0 0 265px;
+}
+
+.timeline {
+    position: relative;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 5px solid rgba(238, 232, 232, 0.515);
+}
+
+.timeline-inner {
+    position: absolute;
+    height: 390px;
+    width: 690px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.timeline-icon {
+    height: 51px;
+    width: 51px;
+    float: left;
+    border-radius: 50px;
+    margin: 10px 10px 5px 15px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.timeline-icon img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.timeline-username-wrapper {
+    height: 30px;
+    width: auto;
+    margin: 10px 0 0 75px;
+    position: absolute;
+    background-color: none;
+}
+
+.timeline-username-text {
+    color: black;
+    font-size: 1.0em;
+    position: relative;
+}
+
+.timeline-username-handle {
+    color: grey;
+    position: relative;
+    margin: -17px 0 0 85px;
+    font-size: 0.9em;
+}
+
+.timeline-tweet-text {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 590px;
+    height: 60px;
+    overflow: hidden;
+    margin: 35px 0 0 75px;
+}
+
+.tweet-image-wrapper {
+    position: absolute;
+    width: 570px;
+    height: 240px;
+    background-color: beige;
+    margin: 10px 0px 0 78px;
+}
+
+.timeline-buttons-wrapper {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 50%;
+    height: 20px;
+    margin: 260px 10px 10px 80px;
+}
+
+.timeline-commment-icon {
+    float: left;
+    margin: 2px 0 0 10px;
+}
+
+.timeline-retweet-icon {
+    float: left;
+    margin: 2px 0 0 35px;
+}
+
+.timeline-heart-icon {
+    float: left;
+    margin: 2px 0 0 40px;
+}
+
+.timeline-dm-icon {
+    float: left;
+    margin: 2px 0 0 55px;
+}
+
+.timeline-span {
+    margin: -3px 0 0 4px;
+    position: absolute;
+}

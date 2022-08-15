@@ -1,0 +1,216 @@
+.sidebar-wrapper {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 300px;
+    width: auto;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.sidebar-icon-home {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 15px 0 0 10px;
+}
+
+.sidebar-icon-home:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.home-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-home p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 55px 0 0;
+    cursor: default;
+}
+
+.sidebar-icon-explore {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 50px 0 0 10px;
+}
+
+.sidebar-icon-explore:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.explore-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-explore p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 45px 0 0;
+    cursor: default;
+}
+
+.sidebar-icon-notifications {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 85px 0 0 10px;
+}
+
+.sidebar-icon-notifications:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.notifications-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-notifications p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 8px 0 0;
+    cursor: default;
+}
+
+.sidebar-icon-messages {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 120px 0 0 10px;
+}
+
+.sidebar-icon-messages:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.messages-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-messages p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 33px 0 0;
+    cursor: default;
+}
+
+.sidebar-icon-bookmarks {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 155px 0 0 10px;
+}
+
+.sidebar-icon-bookmarks:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.bookmarks-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-bookmarks p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 22px 0 0;
+    cursor: default;
+}
+
+.sidebar-icon-lists {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 190px 0 0 10px;
+}
+
+.sidebar-icon-lists:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.lists-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-lists p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 68px 0 0;
+    cursor: default;
+}
+
+.sidebar-icon-profile {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 225px 0 0 10px;
+}
+
+.sidebar-icon-profile:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.profile-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-profile p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 53px 0 0;
+    cursor: default;
+}
+
+.sidebar-icon-more {
+    float: left;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 260px 0 0 10px;
+}
+
+.sidebar-icon-more:hover {
+    background-color: rgb(172, 222, 246);
+    color: blue;
+}
+
+.more-icon {
+    margin: 5px 0 0 10px;
+}
+
+.sidebar-icon-more p {
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 0 64px 0 0;
+    cursor: default;
+}
